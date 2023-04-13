@@ -4,7 +4,7 @@ import { Util } from "./Util";
 export class Guerreiro extends Personagem {
   constructor(nome: string) {
     super(
-      nome + " Warrior",
+      nome + " Guerreiro",
       Util.randomizar(1, 1000),
       0,
       0,
