@@ -3,7 +3,7 @@ import { Util } from "./Util";
 
 export class Priest extends Personagem {
   constructor(nome: string) {
-    super(nome + " Priest", 0, 0, 0, 0, 0, 0, Util.randomizar(1, 8_000));
+    super(nome + " Padre", 0, 0, 0, 0, 0, 0, Util.randomizar(1, 8_000));
     this._vidaAtual = this._vidaMaxima;
   }
 
